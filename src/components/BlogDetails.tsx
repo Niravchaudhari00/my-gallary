@@ -11,7 +11,7 @@ const BlogDetails: React.FC<Props> = (props) => {
   const formateDate = (date: string) => dayjs(date).format("DD MMM YYYY");
 
   return (
-    <div className="w-11/12 min-w-3xl  mx-auto flex flex-col flex-wrap gap-y-2 border rounded-lg shadow-md p-5 my-5">
+    <div className="w-11/12 min-w-3xl  mx-auto flex flex-col flex-wrap gap-y-2 border rounded-lg shadow-md p-5 my-5 bg-gray-100">
       <h2 className="sm:text-xl md:text-2xl font-bold">{post.title}</h2>
 
       <div className="flex flex-wrap gap-2 font-bold">
